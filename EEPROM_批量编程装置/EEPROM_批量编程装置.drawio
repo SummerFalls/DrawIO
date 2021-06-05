@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T11:01:39.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41" version="14.7.6" etag="FrsrX9Z-43mhpxcTWAOw" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T11:11:37.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41" version="14.7.6" etag="otRaRYLSEZcEWgvlp4nT" type="github">
   <diagram id="mR2Xiix3GjgqSvaQ_sEu" name="第 1 页">
     <mxGraphModel dx="1420" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,18 +151,6 @@
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RfeieCIGXyQOk0qlsgoX-24" value="I2C Bus" style="verticalLabelPosition=middle;html=1;verticalAlign=middle;strokeWidth=1;dashed=0;shape=mxgraph.aws3d.flatDoubleEdge;fillColor=#000000;aspect=fixed;rounded=1;shadow=0;comic=0;fontFamily=Verdana;fontSize=12;flipV=1;align=center;horizontal=1;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="450.00000000000006" y="281.13" width="308.94" height="176.19" as="geometry" />
-        </mxCell>
-        <mxCell id="RfeieCIGXyQOk0qlsgoX-243" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowSW;fillColor=#000000;aspect=fixed;labelBackgroundColor=none;fontColor=#000000;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="500.00000000000006" y="391.13" width="59.25" height="33.86" as="geometry" />
-        </mxCell>
-        <mxCell id="RfeieCIGXyQOk0qlsgoX-244" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowNE;fillColor=#000000;aspect=fixed;labelBackgroundColor=none;fontColor=#000000;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="660" y="301.13" width="63.81" height="36.46" as="geometry" />
-        </mxCell>
-        <mxCell id="RfeieCIGXyQOk0qlsgoX-245" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.file;aspect=fixed;strokeColor=#2d6195;fillColor=#ffffff;labelBackgroundColor=none;fontColor=#000000;opacity=90;" vertex="1" parent="1">
-          <mxGeometry x="619.9999999999999" y="292.88" width="30.8" height="70.6" as="geometry" />
-        </mxCell>
         <mxCell id="RfeieCIGXyQOk0qlsgoX-275" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=1;dashPattern=1 3;strokeColor=#4284F3;fontColor=#000000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RfeieCIGXyQOk0qlsgoX-237" target="RfeieCIGXyQOk0qlsgoX-104">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="670" y="600" as="sourcePoint" />
@@ -246,6 +234,21 @@
         <mxCell id="RfeieCIGXyQOk0qlsgoX-320" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontColor=#000000;" edge="1" target="RfeieCIGXyQOk0qlsgoX-319" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="994.8" y="249.63" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfeieCIGXyQOk0qlsgoX-323" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;fontColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RfeieCIGXyQOk0qlsgoX-237" target="RfeieCIGXyQOk0qlsgoX-97">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="590" y="370" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="380" />
+              <mxPoint x="843" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfeieCIGXyQOk0qlsgoX-324" value="I2C Buses x20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="RfeieCIGXyQOk0qlsgoX-323">
+          <mxGeometry x="0.162" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
