@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T09:45:54.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="1qnyZiEpL1DXB2xW9Jxs" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T10:30:40.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="dwj6HF6C5N2ZLWKjwk2A" version="14.7.6" type="github">
   <diagram id="mR2Xiix3GjgqSvaQ_sEu" name="第 1 页">
-    <mxGraphModel dx="1179" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1025" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LUArFlOq55ZyOAaxGKA0-3" value="&lt;span&gt;主控板&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="300" height="280" as="geometry" />
+          <mxGeometry x="40" y="40" width="300" height="230" as="geometry" />
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-4" value="&lt;span&gt;3.5寸 TFT 显示屏&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="53" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-6" value="主芯片（STM32F103VET6）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="60" y="230" width="260" height="60" as="geometry" />
+          <mxGeometry x="60" y="190" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-45" value="FC 软排线&lt;br&gt;（I2C 总线）" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="LUArFlOq55ZyOAaxGKA0-3" target="LUArFlOq55ZyOAaxGKA0-19">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -20,14 +20,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LUArFlOq55ZyOAaxGKA0-49" value="FSMC 总线" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LUArFlOq55ZyOAaxGKA0-4" target="LUArFlOq55ZyOAaxGKA0-6">
+        <mxCell id="LUArFlOq55ZyOAaxGKA0-49" value="FPC 软排线&lt;br&gt;（FSMC 总线）" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LUArFlOq55ZyOAaxGKA0-4" target="LUArFlOq55ZyOAaxGKA0-3">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="210" y="210" as="sourcePoint" />
             <mxPoint x="310" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-50" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="42" width="300" height="250" as="geometry" />
+          <mxGeometry x="480" y="31" width="300" height="250" as="geometry" />
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-19" value="SOIC8 编程座扩展板" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="LUArFlOq55ZyOAaxGKA0-50">
           <mxGeometry y="5" width="280" height="250" as="geometry" />
@@ -95,8 +95,8 @@
         <mxCell id="LUArFlOq55ZyOAaxGKA0-42" value="&lt;div style=&quot;&quot;&gt;编程座 x20&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;size=0.3333333333333333;horizontal=1;labelPosition=right;verticalLabelPosition=middle;" vertex="1" parent="LUArFlOq55ZyOAaxGKA0-50">
           <mxGeometry x="270" y="40" width="30" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="LUArFlOq55ZyOAaxGKA0-51" value="USB 电源适配器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="190" y="380" width="150" height="60" as="geometry" />
+        <mxCell id="LUArFlOq55ZyOAaxGKA0-51" value="5V 电源" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="226" y="380" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-53" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUArFlOq55ZyOAaxGKA0-51" target="LUArFlOq55ZyOAaxGKA0-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -105,7 +105,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-54" value="START 按键" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUArFlOq55ZyOAaxGKA0-55" value="GPIO" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LUArFlOq55ZyOAaxGKA0-6" target="LUArFlOq55ZyOAaxGKA0-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
