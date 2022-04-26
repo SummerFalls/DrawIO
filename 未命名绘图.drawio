@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T08:30:24.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="dv4VvDNisiZ8vf-eKQxK" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-26T08:51:04.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="RX0w67baZakyQ_-9gsY7" version="17.4.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="软件组件构成图">
     <mxGraphModel dx="842" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,41 @@
         </mxCell>
         <mxCell id="5EDwx3WTm2dgCXufDLPL-29" value="FlasherX芯片固件烧录软件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="40" width="410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9fv0iGMAx-39P3kkehjN" name="整体流程图">
+    <mxGraphModel dx="842" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-1" target="BE8dPsZq8b1yBGqNj2om-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-2" target="BE8dPsZq8b1yBGqNj2om-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-2" target="BE8dPsZq8b1yBGqNj2om-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-2" target="BE8dPsZq8b1yBGqNj2om-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-2" value="创建主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-4" value="创建授权许可线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-6" value="创建OSS线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-8" value="创建通讯设备线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358.5" y="240" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
