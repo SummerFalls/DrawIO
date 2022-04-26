@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T07:51:16.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="IcrfVccxD5kbTgzgl2ze" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-26T07:52:34.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="fU_PkGQXh7-LT4kf6wja" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="软件组件构成图">
     <mxGraphModel dx="842" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,16 +25,16 @@
         <mxCell id="5EDwx3WTm2dgCXufDLPL-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="210" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5EDwx3WTm2dgCXufDLPL-21" value="主线程（UI）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5EDwx3WTm2dgCXufDLPL-21" value="Aliyun OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="260" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5EDwx3WTm2dgCXufDLPL-22" value="授权许可线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5EDwx3WTm2dgCXufDLPL-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="260" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5EDwx3WTm2dgCXufDLPL-23" value="OSS线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5EDwx3WTm2dgCXufDLPL-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="260" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5EDwx3WTm2dgCXufDLPL-24" value="通讯设备线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5EDwx3WTm2dgCXufDLPL-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="260" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5EDwx3WTm2dgCXufDLPL-25" value="第三方库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
