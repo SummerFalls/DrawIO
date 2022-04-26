@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T08:51:04.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="RX0w67baZakyQ_-9gsY7" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-26T10:22:55.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="EExJ5wRVC16WFm1dlMjh" version="17.4.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="软件组件构成图">
     <mxGraphModel dx="842" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fv0iGMAx-39P3kkehjN" name="整体流程图">
-    <mxGraphModel dx="842" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1669" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,23 +66,130 @@
         <mxCell id="BE8dPsZq8b1yBGqNj2om-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-2" target="BE8dPsZq8b1yBGqNj2om-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BE8dPsZq8b1yBGqNj2om-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-2" target="BE8dPsZq8b1yBGqNj2om-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BE8dPsZq8b1yBGqNj2om-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-2" target="BE8dPsZq8b1yBGqNj2om-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="BE8dPsZq8b1yBGqNj2om-2" value="创建主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="140" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BE8dPsZq8b1yBGqNj2om-4" value="创建授权许可线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="240" width="110" height="40" as="geometry" />
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-4" target="BE8dPsZq8b1yBGqNj2om-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BE8dPsZq8b1yBGqNj2om-6" value="创建OSS线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="240" width="110" height="40" as="geometry" />
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-4" value="绘制界面，添加按钮、下拉选择框、列表框等控件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BE8dPsZq8b1yBGqNj2om-8" value="创建通讯设备线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="358.5" y="240" width="110" height="40" as="geometry" />
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-12" target="BE8dPsZq8b1yBGqNj2om-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-12" target="BE8dPsZq8b1yBGqNj2om-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-12" value="创建授权许可线程、OSS线程、通讯设备线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-16" target="BE8dPsZq8b1yBGqNj2om-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BE8dPsZq8b1yBGqNj2om-19">
+          <mxGeometry x="-0.22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-16" value="获取固件按钮被单击？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-18" target="BE8dPsZq8b1yBGqNj2om-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-18" value="OSS线程中获取可用固件列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-31" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-21" target="BE8dPsZq8b1yBGqNj2om-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-21" value="更新按钮被单击？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-23" value="将固件项添加到界面的列表框控件中进行显示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-28" value="提示先按下“获取固件”按钮以获取固件列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-38" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-30" target="BE8dPsZq8b1yBGqNj2om-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-39" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-30" target="BE8dPsZq8b1yBGqNj2om-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-30" value="固件列表框内是否&lt;br&gt;存在至少一个可用固件" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-41" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-37" target="BE8dPsZq8b1yBGqNj2om-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-43" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-37" target="BE8dPsZq8b1yBGqNj2om-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-37" value="授权许可线程中判断&lt;br&gt;本机是否得到授权许可？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-40" value="提示本机未获得授权许可，停止更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-45" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-42" target="BE8dPsZq8b1yBGqNj2om-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-47" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-42" target="BE8dPsZq8b1yBGqNj2om-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-42" value="OSS线程中判断固件列表框内当前选中的固件更新次数是否已达到允许的上限？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="770" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-44" value="提示已达可更新次数上限，停止更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-46" target="BE8dPsZq8b1yBGqNj2om-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-46" value="&lt;span&gt;OSS线程中从OSS下载当前选中的固件&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-51" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-48" target="BE8dPsZq8b1yBGqNj2om-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-53" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-48" target="BE8dPsZq8b1yBGqNj2om-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-48" value="固件下载是否成功？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="990" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-50" value="提示固件下载失败，停止更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-52" target="BE8dPsZq8b1yBGqNj2om-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-52" value="通讯设备线程中使用从OSS下载的固件对硬件设备进行固件更新操作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-57" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-54" target="BE8dPsZq8b1yBGqNj2om-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-59" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-54" target="BE8dPsZq8b1yBGqNj2om-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-54" value="固件更新是否成功？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1099" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-56" value="提示固件更新失败，停止更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-58" target="BE8dPsZq8b1yBGqNj2om-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-58" value="OSS线程中执行更新次数+1的操作，并上传至OSS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BE8dPsZq8b1yBGqNj2om-60" value="提示固件更新成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
