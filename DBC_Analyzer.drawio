@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T10:18:34.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="g74Q24KhsXkkBBhekv0i" version="19.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-09T10:24:17.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="rCmw4wNNmKJKCgh-dDpS" version="19.0.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="软件组件构成图">
     <mxGraphModel dx="841" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fv0iGMAx-39P3kkehjN" name="整体流程图">
-    <mxGraphModel dx="841" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,6 +133,9 @@
         <mxCell id="BE8dPsZq8b1yBGqNj2om-50" value="打开CAN帧接收定时器，开始按照1ms的周期进行CAN报文的接收" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="540" width="120" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="mwYlSFhJCEgSGsKmVFP4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-60" target="mwYlSFhJCEgSGsKmVFP4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BE8dPsZq8b1yBGqNj2om-60" value="接收CAN帧至缓冲区" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="900" width="120" height="60" as="geometry" />
         </mxCell>
@@ -151,6 +154,29 @@
         </mxCell>
         <mxCell id="mwYlSFhJCEgSGsKmVFP4-2" value="是否接收到CAN帧" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="780" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mwYlSFhJCEgSGsKmVFP4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mwYlSFhJCEgSGsKmVFP4-8" target="mwYlSFhJCEgSGsKmVFP4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mwYlSFhJCEgSGsKmVFP4-8" value="通过ZDBC库分析CAN报文" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mwYlSFhJCEgSGsKmVFP4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BE8dPsZq8b1yBGqNj2om-60" target="BE8dPsZq8b1yBGqNj2om-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="930" />
+              <mxPoint x="430" y="640" />
+              <mxPoint x="300" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mwYlSFhJCEgSGsKmVFP4-13" value="线程异步循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mwYlSFhJCEgSGsKmVFP4-12">
+          <mxGeometry x="-0.4941" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mwYlSFhJCEgSGsKmVFP4-10" value="将分析得到的数据实时显示到界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
